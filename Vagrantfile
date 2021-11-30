@@ -1,4 +1,5 @@
 script = <<SCRIPT
+apt install make
 git clone https://github.com/ddgreen/vagrant-openstack.git
 make -C vagrant-openstack
 SCRIPT
