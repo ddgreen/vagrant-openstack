@@ -1,7 +1,7 @@
 script = <<SCRIPT
 apt install make
-git clone https://github.com/ddgreen/vagrant-openstack.git
-make -C vagrant-openstack
+sudo -u vagrant git clone https://github.com/ddgreen/vagrant-openstack.git
+sudo -u vagrant make -C vagrant-openstack
 SCRIPT
 
 Vagrant.configure("2") do |config|
